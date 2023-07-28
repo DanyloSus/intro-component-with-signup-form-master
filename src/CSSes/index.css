@@ -10,4 +10,48 @@
   input {
     @apply py-[14px] px-[32px] lg:px-[24px] border border-solid w-full border-dark-blue rounded-lg text-black invalid:border-red invalid:text-red transition-colors;
   }
+}
+.anim-text:nth-child(1) {
+  animation: anim-text 1s ease-in-out both;
+  animation-delay: 0.5s;
+}
+
+.anim-text:nth-child(2) {
+  animation: anim-text 1s ease-in-out both;
+  animation-delay: 1s;
+}
+
+@keyframes anim-text {
+  0% {
+    position: relative;
+    left: -20px;
+    opacity: 0;
+  }
+  100% {
+    position: relative;
+    left: 0;
+    opacity: 1;
+  }
+}
+.anim-form:nth-child(1) {
+  animation: anim-form 1s ease-in-out both;
+  animation-delay: 1.5s;
+}
+
+.anim-form:nth-child(2) {
+  animation: anim-form 1s ease-in-out both;
+  animation-delay: 2s;
+}
+
+@keyframes anim-form {
+  0% {
+    position: relative;
+    bottom: -20px;
+    opacity: 0;
+  }
+  100% {
+    position: relative;
+    bottom: 0;
+    opacity: 1;
+  }
 }/*# sourceMappingURL=index.css.map */

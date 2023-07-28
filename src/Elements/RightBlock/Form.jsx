@@ -53,7 +53,7 @@ const Form = () => {
 
   return (
     <form
-      className="flex flex-col w-full h-max bg-white mt-5 p-[40px] pb-[44px] drop-shadow-forPR rounded-xl gap-5 text-dark-blue font-semibold text-center lg:p-[24px]"
+      className="flex flex-col w-full h-max bg-white mt-5 p-[40px] pb-[44px] drop-shadow-forPR rounded-xl gap-5 text-dark-blue font-semibold text-center lg:p-[24px] anim-form"
       onSubmit={handleSubmit}
     >
       <Input

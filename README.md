@@ -4,4 +4,4 @@ from *www.frontendmentor.io*
 
 - [x] Desktop Design
 - [x] Relative Design
-- [ ] Animtions
+- [x] Animtions
