@@ -53,7 +53,7 @@ const Form = () => {
 
   return (
     <form
-      className="flex flex-col w-full h-max bg-white mt-5 p-[40px] pb-[44px] drop-shadow-forPR rounded-xl gap-5 text-dark-blue font-semibold text-center"
+      className="flex flex-col w-full h-max bg-white mt-5 p-[40px] pb-[44px] drop-shadow-forPR rounded-xl gap-5 text-dark-blue font-semibold text-center lg:p-[24px]"
       onSubmit={handleSubmit}
     >
       <Input
@@ -96,8 +96,8 @@ const Form = () => {
         value="CLAIM YOUR FREE TRIAL"
         className="text-white bg-green border-0 drop-shadow-button font-normal cursor-pointer hover:opacity-60 transition-opacity"
       />
-      <p className=" text-grayish-blue text-sm">
-        Pyrking the But, you an opening to our{" "}
+      <p className=" text-grayish-blue text-sm lg:text-xs">
+        By clicking the button, you are agreeing to our{" "}
         <a href="" className="text-red">
           Terms and vice
         </a>

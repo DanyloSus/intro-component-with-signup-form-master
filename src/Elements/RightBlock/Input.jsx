@@ -35,8 +35,8 @@ const Input = ({
       <span
         className={
           error
-            ? "text-red text-sm transition-all relative -top-0 opacity-1"
-            : "text-red text-sm transition-all relative -top-3 opacity-0"
+            ? "text-red text-sm transition-all relative -top-0 opacity-1 lg:text-xs"
+            : "text-red text-sm lg:text-xs transition-all relative -top-3 opacity-0"
         }
       >
         {error}

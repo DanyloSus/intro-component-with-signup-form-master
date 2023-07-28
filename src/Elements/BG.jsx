@@ -6,7 +6,12 @@ const BG = () => {
       <img
         src="./bg-intro-desktop.png"
         alt="bg intro desktop"
-        className="w-screen h-screen"
+        className="w-screen h-screen object-cover lg:hidden"
+      />
+      <img
+        src="./bg-intro-mobile.png"
+        alt="bg intro mobile"
+        className="w-screen h-screen object-cover hidden lg:block"
       />
     </div>
   );

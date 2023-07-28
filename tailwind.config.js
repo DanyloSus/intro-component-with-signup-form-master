@@ -14,6 +14,9 @@ export default {
         forPR: "0 10px 0 rgba(0, 0, 0, 0.15)",
         button: "0 5px 0 hsla(154,99%,21%,0.5)",
       },
+      screens: {
+        lg: { max: "1024px" },
+      },
     },
   },
   plugins: [],

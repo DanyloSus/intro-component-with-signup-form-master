@@ -10,6 +10,6 @@
 
 @layer components {
   input {
-    @apply py-[14px] px-[32px] border border-solid w-full border-dark-blue rounded-lg text-black invalid:border-red invalid:text-red transition-colors;
+    @apply py-[14px] px-[32px] lg:px-[24px] border border-solid w-full border-dark-blue rounded-lg text-black invalid:border-red invalid:text-red transition-colors;
   }
 }
